@@ -511,6 +511,17 @@ footer {
     animation: fadeIn 1s ease-out forwards;
 }
 
+@media only screen and (min-width: 1200px) {
+    .home-section {
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+
+    .home-img {
+        margin-top: 15%;
+    }
+}
+
 @media only screen and (max-width: 860px) {
     .home-section {
         margin: 25% 2% 55% 0%;
@@ -821,7 +832,5 @@ footer {
 
     .projects h3 {
         font-size: 12px;
-    }
-
-    
+    }    
 }
