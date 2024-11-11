@@ -511,7 +511,7 @@ footer {
     animation: fadeIn 1s ease-out forwards;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1920px) {
     .home-section {
         margin-top: 20%;
         margin-bottom: 30%;
