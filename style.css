@@ -148,6 +148,34 @@ nav {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #292929;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease;
+    transition: transform .2s;
+}
+
+.icons a:hover {
+    color: white;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
 .projects-section {
     text-align: center;
     margin-top: 5%;
@@ -363,34 +391,6 @@ nav {
 
 .contact input[type="submit"]:hover {
     background-color: rgba(255, 255, 255, 0.2);
-}
-
-.icons {
-    display: flex;
-    align-items: center;
-}
-
-.icons a {
-    text-decoration: none;
-    color: white;
-    margin: 0 5px;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: #292929;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: color 0.3s ease;
-    transition: transform .2s;
-}
-
-.icons a:hover {
-    color: white;
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
 }
 
 .thank-you-section {
@@ -635,18 +635,18 @@ footer {
         margin: 0% 5%;
     }
 
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 0% 5%;
-    }
-
     .btn {
         font-size: 14px;
         padding: 8px 10px;
-        margin: 0% 5%;
+    }
+
+    .icons, .buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons a, .btn {
+        vertical-align: middle;
     }
 
     .projects-section h1 {
@@ -730,10 +730,6 @@ footer {
     .contact input[type="submit"] {
         font-size: 0.9rem;
         padding: 10px;
-    }
-
-    .icons {
-        margin-bottom: 3%;
     }
 
     .thank-you-section {
