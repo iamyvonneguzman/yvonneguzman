@@ -462,18 +462,6 @@ footer {
     line-height: 1.6;
 }
 
-.success {
-    color: #00FF00;
-    font-size: 1rem;
-    margin-top: 20px;
-}
-
-.error {
-    color: #FF0000;
-    font-size: 1rem;
-    margin-top: 20px;
-}
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
